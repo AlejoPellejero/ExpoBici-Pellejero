@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="container-header">
+        <div class="container-left">
+            <img src="../images/milogo.jpg" alt="Logo">
+        </div>
+        <div class="container-right">
+            <ul class="nav nav-tabs menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./firstPage.html">Destacado</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active"  aria-current="page" href="./contactanos.html">Contacto</a>
+                </li>
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                    <li><a class="dropdown-item" href="./firstPage.html">Destacado</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item active" href="./contactanos.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-form">
+        <h2 class="titles-contacto">Envianos tus consultas y sugerencias</h2>
+        <form method="post" enctype="application/x-www-form-urlencoded">
+            <div class="name-last">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" />
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" />
+            </div>
+            <div class="phone-acount">
+                <label for="mail">Mail:</label>
+                <input type="mail" name="mail" />
+                <label for="telefono">Telefono:</label>
+                <input type="number" name="telefono" />
+            </div>            
+            <div class="send-something">
+                <label for="telefono">Mensaje:</label>
+                <textarea name="mensaje">Write something here</textarea>
+                <div class="buttons-form">
+                    <input type="submit" value="Enviar" />                
+                </div>
+            </div>            
+        </form>
+        <h2 class="titles-contacto">¿Donde nos entontramos?</h2>
+        <!--Aca iria un mapa-->
+    </section>
+    <footer class="container-footer">
+        <h3 class="redes">SÍGANOS EN REDES</h3>
+        <div class="image-redes">
+            <img src="../images/facebook.png" alt="Facebook">
+            <img src="../images/ig.png" alt="Instagram">
+            <img src="../images/twwt.png" alt="Twitter">
+            <img src="../images/youtube.png" alt="Youtube">
+        </div>
+    </footer>
+</body>
+
+</html>
